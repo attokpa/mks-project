@@ -1,0 +1,89 @@
+
+
+
+/*TABLEAU*/
+table{
+    border-collapse: collapse;
+ }
+td{
+padding: 8px;
+min-width: 126px;
+border: 1px solid rgba(242, 235, 235, 0.888);
+}
+th{
+    /* background-color: rgb(75, 70, 70); */
+    color:black;
+    text-align: left;
+    padding: 13px;
+
+}
+tr{
+   
+    border: 1px solid rgba(242, 235, 235, 0.888);
+    padding: 10px;
+    
+
+}
+.a{
+    border: 1px solid rgba(242, 235, 235, 0.888);
+}
+.bouton{
+    margin-left:760px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: rgb(180, 115, 240);
+    cursor: pointer;
+}
+.bouton:hover{
+    opacity: 0.7;
+}
+th a{
+    text-decoration: none;
+    color: white;
+ 
+   
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+
+ 
+   
+}
+ .vert{
+    padding: 8px 15px;
+    background-color: green;
+}
+.roug{
+    padding: 8px 15px;
+    background-color: red;
+}
+.tabl{
+   
+   padding:20px;
+   font-size: 20px;
+   font-weight: normal;
+
+ 
+
+
+}
+.tr{
+    border: 1px solid rgba(242, 235, 235, 0.888);
+    padding: 10px;
+   
+    
+  
+    
+
+}
+.b{
+    
+border: 1px solid black;
+}
+button{
+    border-radius: 4px;
+}

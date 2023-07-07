@@ -1,0 +1,331 @@
+
+.logo{
+    width:70px; 
+    top:4%;
+    left: 10%;
+    margin-left: 30px;
+    margin-top:20px ;}
+ 
+    
+
+
+body{
+  background-color: #f4f4fb;   
+}
+
+/* h2{
+    font: 18px;
+    padding: 15px 0;
+}
+h2 > span{
+    font-size: 14px; */
+
+
+/**/
+.navbar{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+    padding-left: 6rem;
+
+
+
+}
+.profile{
+    display: flex;
+    width:200px;
+    max-width: 200px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo{
+    width: 50px;
+    height:50px;
+    object-fit: cover;
+    border-radius: 70%;
+    margin-bottom: 20px;
+    margin-right: 30px;
+
+}
+.profile-name{
+
+    margin-left: -28px;
+   
+    border:2px solid #2d2d98;
+    border-radius: 10px;
+}
+    a{
+        color:white;
+
+   
+    text-decoration: none;
+    padding: 4px;
+    font-size:1.1rem ;
+  
+
+}
+.profile-name:hover{
+   background-color: #2d2d98;
+}
+.z:hover{
+    color :white;
+}
+
+/*HAUT*/
+ /* .active{
+
+    color: red !important;
+   
+    
+    }
+    .active a:hover{
+        color: gray!important; 
+    
+
+    } */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'poppins', sans-serif;
+
+}
+
+/* body{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: #000; */
+   
+    
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    width: 100%;
+    height: 100vh;
+ background-image: url("../images/pexels-lukas-1420709.jpg");
+ background-size: cover;
+ background-position: center;} 
+
+ .navbar h4{
+    display: flex;
+    
+
+ }
+ .navbar h4 li{
+    list-style: none;
+    margin-left:100px;
+    font-weight: normal;
+    
+
+ }
+ .navbar h4 a{
+    color: gray;
+ }
+ .navbar h4 li :hover{
+    color: gray;
+    background-color:  #def1fb;
+    border-radius: 20px;
+    padding: 10px;
+    /* width: 200px; */
+ }
+
+.login-box{
+    position: relative;
+    width: 475px;
+    height:500px;
+     /* border: 1px solid rgba(13, 116, 136, 0.5);  */
+    /* display: flex;  */
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: auto;
+}
+    /* margin-top: 10px; */
+
+    
+    
+
+/*MODIFIET*/
+/* }
+.home{
+    display: flex;
+} */
+
+form{
+    margin: auto;
+    text-align: "center";
+      border: 1px solid rgba(13, 116, 136, 0.5); 
+     padding: 30px;  
+}
+
+h2{
+    
+    font-size: 2em;
+    font-family: cursive;
+    color: black; 
+    text-align: center; 
+}
+
+h3{
+    
+    font-size:1.5em;
+    font-family: cursive;
+    color: black; 
+    text-align: center; 
+}
+.input-box{
+  
+    position: relative;
+    /* width: 180px; */
+    margin-top: 20px;
+   
+    
+}
+
+
+.input-box label{
+
+    transform: translateY(-50%) ;
+    font-size: 0.9em;
+    color: #000;
+
+    
+    
+    
+   
+    pointer-events: none;
+    
+   
+    transition: .5s; 
+    font-family: cursive;
+}
+
+.input-box legend{
+    font-family: cursive;
+
+}
+
+
+
+.input-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color:#000; 
+    padding: 0 35px 0 5px; 
+    border-bottom: 1px solid #000;
+    outline: none;   
+    
+
+}
+.input-box select {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color:#000; 
+    padding: 0 35px 0 5px; 
+    border-bottom: 1px solid #000;
+    outline: none;   
+    
+
+}
+  button  {
+    width: 50%;
+    height: 40px;
+    background-color:#24557828;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+   
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+} 
+button a {
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+}
+ 
+
+    
+    
+    
+
+div.button :hover{
+   
+    background:rosybrown;
+
+}
+
+/**/
+
+
+.buttons button  {
+    width: 40%;
+    height:30px;
+    background-color:#24557828;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+   
+    color: black;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left:80px;
+}
+.buttons button a {
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+}
+ 
+
+    
+    
+    
+
+div.buttons :hover{
+   
+    background:rosybrown;
+
+}
+.input-box select {
+    background-color:transparent;}
+
+    .input-box option{
+        background-color:#def1fb;
+
+    }
+
+
+
+
+    
+    
+    
+
+
